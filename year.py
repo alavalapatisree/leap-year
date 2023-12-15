@@ -7,7 +7,7 @@ def is_leap_year(year):
         return False
 
 if __name__ == "__main__":
-    year_to_check = 2023
+    year_to_check = int(input())
     result = is_leap_year(year_to_check)
     if result:
         print(f"{year_to_check} is a leap year.")
